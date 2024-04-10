@@ -1,6 +1,6 @@
 PODS:
   - Alamofire (5.9.1)
-  - ZZNetworkExtend (0.0.1):
+  - ZZNetworkExtend (0.0.2):
     - Alamofire
 
 DEPENDENCIES:
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
-  ZZNetworkExtend: b19aaf331fc23ba91180f164a05a4041acbac8a7
+  ZZNetworkExtend: 9597ee8295a03cdbc9de2705a9f8c2c3ff368d98
 
 PODFILE CHECKSUM: 112b6eb798f156b152e4d0947a6937730d22d97a
 

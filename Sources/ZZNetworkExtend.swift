@@ -5,13 +5,13 @@
 import UIKit
 import Alamofire
 
+public enum ZZNetworkUploadType {
+    case image
+    case audio
+    case video
+}
+
 public class ZZNetworkExtend: NSObject {
-    
-    public enum ZZNetworkUploadType {
-        case image
-        case audio
-        case video
-    }
     
     public static var requestTimeout: TimeInterval = 10.0
     

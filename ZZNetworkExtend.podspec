@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ZZNetworkExtend'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'A short description of ZZNetworkExtend.'
   s.homepage         = 'https://github.com/MartinChristopher/ZZNetworkExtend'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
