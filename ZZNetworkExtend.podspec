@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
   
   s.source_files = 'Sources/**/*.{swift}'
-  s.resources = "Sources/**/*.{bundle,strings,xcassets}"
+  # s.resources = "Sources/**/*.{bundle,strings,xcassets}"
   
   s.dependency "Alamofire"
 end
