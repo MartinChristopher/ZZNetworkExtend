@@ -82,13 +82,9 @@ public final class ZZNetworkResponseSerializer: ResponseSerializer {
             throw error!
         }
         guard let data = data,
+              !data.isEmpty,
               let dic = try? JSONSerialization.jsonObject(with: data, options: [.fragmentsAllowed]) as? [String: Any] else {
-            if emptyResponseAllowed(forRequest: request, response: response) {
-                return [:]
-            }
-            else {
-                throw AFError.responseSerializationFailed(reason: .inputDataNilOrZeroLength)
-            }
+            return [:]
         }
         return dic
     }
